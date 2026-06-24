@@ -472,9 +472,9 @@ input[type="submit"]:hover{
     padding: 80px 20px;
     background-color: #f5f7ff;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
-    gap: 60px;
+    /* gap: 10px; */
 }
 .contact-title h1{
     text-align: center;
