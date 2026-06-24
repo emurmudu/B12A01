@@ -18,6 +18,7 @@ nav a {
     font-size: 18px;
     font-weight: bold;
 }
+
 nav div button {
     background-color: #4D47FE;
     color: white;
@@ -27,16 +28,19 @@ nav div button {
     cursor: pointer;
     border-radius: 5px;
 }
+
 .logo {
     color: #4D47FE;
     text-decoration: none;
     font-size: 30px;
 }
+
 div button a {
     color: #ffffff;
     text-decoration: none;
 }
-.hero-content button{
+
+.hero-content button {
     background-color: #4D47FE;
     color: white;
     border: none;
@@ -45,58 +49,71 @@ div button a {
     cursor: pointer;
     border-radius: 5px;
 }
-.hero-content button a{
+
+.hero-content button a {
     color: #ffffff;
     text-decoration: none;
     /* padding: 18px 10px; */
 }
-.hero-content h1{
+
+.hero-content h1 {
     text-decoration: none;
     text-align: center;
 }
 
-.hero{
+.hero {
     margin-top: 100px;
     justify-content: center;
     align-items: center;
 }
 
 .navbar {
-    height: 100vh;   /* Full screen height */
+    height: 100vh;
+    /* Full screen height */
     background-image: url("../assets/hero-bg.png");
-    background-size: cover;       /* Fill the section */
-    background-position: center;  /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating */
+    background-size: cover;
+    /* Fill the section */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent repeating */
 
 }
+
 .hero-content {
     text-align: center;
 }
+
 .see-action {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
     padding: 50px;
     gap: 50px;
 }
+
 .action-content {
     text-align: left;
 }
+
 .action-content h1 {
     font-size: 36px;
     margin-bottom: 20px;
 }
+
 .action-content p {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
 section img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
 .action-content button {
     background-color: #4D47FE;
     color: white;
@@ -106,17 +123,24 @@ section img {
     cursor: pointer;
     border-radius: 5px;
 }
+
 .action-image {
     text-align: center;
     width: 30%;
     height: auto;
 }
+
+.action-image img {
+    border-radius: 50px;
+}
+
 .action-content p {
     font-size: 18px;
     margin-top: 20px;
     color: #8f8b8b;
     font-size: 24px;
 }
+
 .hero-content h1 {
     font-size: 62px;
     margin-bottom: 20px;
@@ -209,4 +233,140 @@ section img {
     .satisfaction-rate {
         font-size: 2.5rem;
     }
+}
+
+/* Feedback Section */
+.users-feedback-section {
+    padding: 80px 20px;
+    background-color: #f5f7ff;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Design */
+.feedback {
+    max-width: 350px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.card-all {
+    display: flex;
+    max-width: 1140px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    /* display: block; */
+    margin: 0 auto;
+}
+
+.feedback:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Stars */
+.stars {
+    display: inline-flex;
+    /* display: flex; */
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.stars img {
+    width: 18px;
+    height: 18px;
+}
+
+/* Title */
+.feedback-title {
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 60px;
+}
+
+.feedback h4 {
+    margin: 0 0 15px;
+    font-size: 1.3rem;
+    color: #1f2937;
+}
+
+/* Review Text */
+.feedback>p {
+    margin: 0 0 25px;
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+/* Avatar + Name + Date Inline */
+.user-info-img {
+    display: flex;
+    align-items: center;
+    /* Vertically align avatar and text */
+    gap: 15px;
+}
+
+/* Avatar */
+.user-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Name and Date */
+.user-info-img p {
+    margin: 0;
+}
+
+.user-info-img p:first-child {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.user-info-img p:last-child {
+    margin-top: 4px;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.focus-better-section {
+    max-width: 1140px;
+    /* height: 100vh;  */
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.focus-card button {
+    background-color: #4D47FE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.focus-card h1 {
+    font-size: 44px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+.focus-card p {
+    /* font-size: 44px; */
+    color: #757577;
+    margin-bottom: 20px;
+}
+.focus-img img {
+    /* width: 100%; */
+    /* height: auto; */
+    border-radius: 40px;
+    margin-bottom: 20px;
 }
