@@ -121,3 +121,92 @@ section img {
     font-size: 62px;
     margin-bottom: 20px;
 }
+
+
+/* Users Info Section */
+.users-info {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users-info-content {
+    max-width: 1000px;
+    width: 100%;
+    background: #E3E6FF;
+    /* background: #ffffff; */
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.users-info-content h1 {
+    font-size: 2.2rem;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+/* User Statistics */
+.users-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.users-list {
+    flex: 1;
+    min-width: 180px;
+    padding: 20px;
+}
+
+.users-list p {
+    margin: 0;
+}
+
+/* Numbers */
+.active-users,
+.focus-sessions,
+.satisfaction-rate {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #4f46e5;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+.users-list p:last-child {
+    font-size: 1rem;
+    color: #6b7280;
+    letter-spacing: 0.5px;
+}
+
+/* Hover Effect */
+.users-list:hover {
+    transform: translateY(-8px);
+    transition: 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .users-info-content {
+        padding: 40px 25px;
+    }
+
+    .users-info-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .users-details {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .active-users,
+    .focus-sessions,
+    .satisfaction-rate {
+        font-size: 2.5rem;
+    }
+}
