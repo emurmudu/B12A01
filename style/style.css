@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 nav a {
@@ -10,4 +10,13 @@ nav a {
     color: black;
     font-size: 18px;
     font-weight: bold;
+}
+nav div button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
 }
