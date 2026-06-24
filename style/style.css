@@ -482,3 +482,36 @@ input[type="submit"]:hover{
     font-size: 80px;
     text-align: left;
 }
+
+.footer-section{
+    padding: 80px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* gap: 20px; */
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* text-decoration: none; */
+}
+.footer-links a{
+    text-decoration: none;
+    color: #929294;
+    font-size: 18px;
+}
+.footer-text p{
+    text-align: center;
+    color: #929294;
+    /* font-size: 18px; */
+}
+.footer-logo img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
